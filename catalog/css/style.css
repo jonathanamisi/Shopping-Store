@@ -1,0 +1,320 @@
+body{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient( 145deg, #e68dff 10%, #4bfff3 100%) ;
+  min-height: 100%;
+  
+}
+table {
+ border-collapse: collapse;
+ margin: auto;
+ width: 70%;
+ padding: 10px;
+ box-shadow: 10px 5px 5px rgb(103, 131, 159);
+ text-align: center;
+
+}
+
+form
+{
+  border-collapse: collapse;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  border: black solid;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #49c98d 50%, #0b6e46 100%);
+  border-radius: 5px;
+  height: 100%;
+  text-align: center;
+  box-shadow: 8px 5px 8px rgb(101, 123, 114);
+}
+
+form a
+{
+  color: #ffffff;
+}
+
+section form
+{
+  border-collapse: collapse;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  border: black solid;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF 0%,  #49c98d 50%, #0b6e46 100%);
+  
+  border-radius: 5px;
+  height: 100%;
+
+}
+
+section form a
+{
+  color: #ffffff;
+}
+
+section form input
+{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button
+{
+  cursor: pointer;
+}
+.header{
+    color: rgb(0, 0, 0);
+}
+
+p
+{
+    color: white;
+}
+
+.button 
+ {
+    background-color: #a8af4c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 10%;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  object-fit: contain;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+th {
+    background-color: rgb(26, 81, 60);
+    color: #fff2f2;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+
+td {
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 90px;
+}
+
+img:hover{background-color: #cdcdcd;
+  box-shadow: 0 5px #666;
+  transform: translateX(8px);}
+
+td a{
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 10px;
+  color: lightcyan;
+  border: 2px solid blue;
+  padding: .2em;
+}
+
+td a:hover {background-color: #3e478e;
+color: white;}
+
+td a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+tr:nth-child(even) {
+    background-color: #81beff;
+}
+
+.success {
+    background-color: rgb(164, 237, 164);
+    text-align: center;
+}
+
+.danger
+{
+  color: rgb(65, 11, 106);
+    text-align: center;
+
+    animation: mymove 3s infinite;
+    animation-delay: 2s;
+    position: relative;
+}
+
+.error a {
+
+  color: #bd0300;
+}
+
+.error
+{
+    color: red;
+    text-align: center;
+
+    animation: mymove 3s infinite;
+    animation-delay: 2s;
+    position: relative;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 20px;}
+  }
+
+  /* Nav Bar*/
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-image: linear-gradient( 145deg, #265967 100%, #2a3976 10%) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: rgb(60, 96, 255);
+  }
+
+ 
+   .gg-log-off {
+    color: rgb(19, 185, 7);
+   }
+
+   .gg-log-off:hover {
+    color: rgb(252, 197, 0);
+   }
+
+   .gg-log-off:active {
+    color: #bd0300;
+    box-shadow: 0 5px rgb(107, 49, 49);
+    transform: translateY(4px);
+  }
+   
+  .us {
+    text-align: right;
+    color: white;
+    padding-bottom: 10px;
+       
+  }
+
+  img
+  { height: 100px;
+   width: "auto";
+  }
+
+  .addtocartproduct{
+    text-align: center;
+        padding: 20px;
+        border-collapse: collapse;
+        margin: auto;
+        width: max-content;
+        border: black solid;
+        background-color: #FFFFFF;
+        background-image: linear-gradient(180deg, #FFFFFF 0%,  #49c98d 50%, #0b6e46 100%);
+  
+  border-radius: 5px;
+  }
+   
+ /* Cart*/
+ .badge:after{
+  content:attr(value);
+  font-size:12px;
+  color: #fff;
+  background: red;
+  border-radius:50%;
+  padding: 0 5px;
+  animation: cartamount 5s;
+  animation-delay: 1s;
+  position:relative;
+  left:-8px;
+  top:-10px;
+  opacity:0.9;
+}
+
+
+td .totalamount{
+  background-color: cornsilk;
+}
+
+#errorMessage{
+  color: red;
+}
+
+.vid_row_1
+{
+  display: inline-block;
+  padding-top: 20px; 
+}
+
+span.b {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid blue;    
+  background-color: rgb(0, 229, 255);
+  text-align: center; 
+  border-radius: 8px;
+}
+
+
+
